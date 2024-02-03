@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom";
 export const Logueado = () => {
   return (
     <>
-      <div className="px-2 py-1 bg-green-200 rounded-lg">
+      <div className="px-2 py-1 bg-green-200 rounded-lg flex gap-2">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
@@ -18,6 +18,10 @@ export const Logueado = () => {
           />
         </svg>
       </div>
+      <div>
+          <p className="text-sm text-start text-slate-400">Andres Arriaga</p>
+          <p className="text-sm text-slate-400">andresfelipe@gmail.com</p>
+        </div>  
     </>
   );
 };

@@ -6,7 +6,7 @@ const Inicio = () => {
     const [abrirModal, setAbrirModal] = useState(false);
   return (
     <>
-      <Header logueado={false} setAbrirModal={setAbrirModal} />
+      <Header logueado={true} setAbrirModal={setAbrirModal} />
       <Modals setAbrirModal={setAbrirModal} abrirModal={abrirModal}/>
     </>
   );

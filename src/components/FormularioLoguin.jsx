@@ -1,3 +1,5 @@
+import { Facebook, Google } from "./Svgs";
+
 const Inputs = ({nombre, type, id,w}) => {
     return (
       <label
@@ -22,13 +24,45 @@ const Inputs = ({nombre, type, id,w}) => {
   const FormularioLoguin = () => {
     return (
       <>
-        <form action="" className="flex w-full justify-center flex-col gap-2">
-          <h2 className="font-bold">Ingreso</h2>
+        <form
+          action=""
+          className="flex w-full justify-center items-center flex-col gap-2 pb-6"
+        >
+          <h2 className=" text-2xl w-40 ">Inicia Sesión</h2>
           <div className="flex justify-center">
-            <Inputs nombre={"correo"} type={"email"} id={"email"} w={"w-96"} />
+            <Inputs nombre={"usuario"} type={"email"} id={"email"} w={"w-96"} />
           </div>
           <div className="flex justify-center">
-            <Inputs nombre={"contraseña"} type={"password"} id={"contraseña"} w={"w-96"} />
+            <Inputs
+              nombre={"contraseña"}
+              type={"password"}
+              id={"contraseña"}
+              w={"w-96"}
+            />
+          </div>
+          <div className="w-full">
+            <button className="w-96 border rounded-md py-2  bg-yellow-500 text-white font-semibold">
+              Ingresar
+            </button>
+          </div>
+          <div className="w-96">
+            <span className="flex items-center ">
+              <span className="h-px flex-1 bg-slate-300"></span>
+              <span className="shrink-0 text-slate-400 px-6">
+                Iniciar sesión con
+              </span>
+              <span className="h-px flex-1 bg-slate-300"></span>
+            </span>
+          </div>
+          <div className="w-full flex justify-center items-center flex-col gap-2">
+            <button className="w-96 border rounded-md py-2 flex gap-2">
+              <Google />
+              <p className="pl-10">Iniciar sesión con google</p>
+            </button>
+            <button className="w-96 border rounded-md py-2 flex gap-2">
+              <Facebook/>
+              <p className="pl-10">Iniciar sesión con facebook</p>
+            </button>
           </div>
         </form>
       </>

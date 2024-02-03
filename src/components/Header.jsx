@@ -2,8 +2,7 @@ import { NavLink } from "react-router-dom";
 import Logo from "../assets/Custom.png";
 import { Logueado, NoLogueado } from "./estaLogueado";
 
-const Header = ({ logueado,setAbrirModal }) => {
-  
+const Header = ({ logueado, setAbrirModal }) => {
   return (
     <>
       <header
@@ -58,7 +57,7 @@ const Header = ({ logueado,setAbrirModal }) => {
 
                   <li>
                     <NavLink
-                      className="text-gray-500 transition hover:text-gray-500/75"
+                      className="text-gray-500 transition hover:text-blue-500/75"
                       to="/tu-carrito"
                     >
                       <svg
@@ -67,7 +66,7 @@ const Header = ({ logueado,setAbrirModal }) => {
                         viewBox="0 0 24 24"
                         strokeWidth={1.5}
                         stroke="currentColor"
-                        className="w-6 h-6"
+                        className="w-6 h-6 "
                       >
                         <path
                           strokeLinecap="round"
@@ -80,12 +79,35 @@ const Header = ({ logueado,setAbrirModal }) => {
                 </ul>
               </nav>
 
-              <div className="flex items-center gap-4">{logueado ? <Logueado/> : <NoLogueado setAbrirModal={setAbrirModal}/>}</div>
+              <div className="flex items-center gap-4">
+                {logueado ? (
+                  <Logueado />
+                ) : (
+                  <NoLogueado setAbrirModal={setAbrirModal} />
+                )}
+                <div className="block md:hidden">
+                  <button className="rounded bg-gray-100 p-2 text-gray-600 transition hover:text-gray-600/75">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      className="h-5 w-5"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                      strokeWidth="2"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M4 6h16M4 12h16M4 18h16"
+                      />
+                    </svg>
+                  </button>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </header>
-
     </>
   );
 };
