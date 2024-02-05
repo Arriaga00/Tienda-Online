@@ -12,7 +12,7 @@ const TuCarrito = ({logueado}) => {
           <div>
             <h2 className="text-lg font-bold ">
               Tu Carrito de Amazon está vacío</h2>
-              <p className="font-bold text-slate-400">{logueado ? undefined: 'Inicia sesion'}</p>
+              <p className="font-bold text-slate-400">{logueado ? 'Añade un nuevo producto +' : 'Inicia sesion'}</p>
           </div>
         </div>
       </section>
