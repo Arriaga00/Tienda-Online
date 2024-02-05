@@ -17,7 +17,7 @@ function App() {
           <Route path='/' element={<Inicio />}/>
           <Route path='/acerca-de-nosotros' element />
           <Route path='/categorias' element />
-          <Route path='/tu-carrito' element={<TuCarrito/>} />
+          <Route path='/tu-carrito' element={<TuCarrito logueado={false}/>} />
         </Routes>
       </Router>
     </>
