@@ -8,7 +8,7 @@ const Inicio = () => {
   const [abrirModal, setAbrirModal] = useState(false);
   return (
     <>
-      <Header logueado={true} setAbrirModal={setAbrirModal} />
+      <Header logueado={false} setAbrirModal={setAbrirModal} />
       <Modals setAbrirModal={setAbrirModal} abrirModal={abrirModal} />
       <div className=" flex justify-center items-center ">
         <main className="max-w-[1500px]">
