@@ -1,7 +1,8 @@
-
 const TuCarrito = () => {
   return (
-    <div>Tu-carrito</div>
+    <>
+    
+    </>
   )
 }
 
