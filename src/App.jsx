@@ -7,6 +7,7 @@ import { useState } from "react";
 import Modals from "./components/Modals";
 import NoFound from './components/NoFound';
 import Registro from './pages/Registro';
+import Categorias from './pages/Categorias';
 
 function App() {
   const [abrirModal, setAbrirModal] = useState(false);
@@ -18,7 +19,7 @@ function App() {
         <Routes>
           <Route path='/' element={<Inicio />}/>
           <Route path='/acerca-de-nosotros' element />
-          <Route path='/categorias' element />
+          <Route path='/categorias' element={<Categorias/>} />
           <Route path='/registro' element={<Registro/>} />
           <Route path='/tu-carrito' element={<TuCarrito logueado={false}/>} />
           <Route path='*' element={<NoFound/>}/>

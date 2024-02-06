@@ -1,0 +1,26 @@
+[
+    {
+        "categoria" : "Teclados",
+        "img" : "https://i.ibb.co/NpBzG2j/61g-K8-XUMt-NL-AC-SL1500.jpg"
+    },
+    {
+        "categoria" : "Mouse",
+        "img" : "https://i.ibb.co/N3VW6GY/71sa-a-Jg-Bt-L-AC-SL1500.jpg"
+    },
+    {
+        "categoria" : "Pantallas",
+        "img" : "https://i.ibb.co/0qLyZFD/619-Wkazn-IJL-AC-SL1080.jpg"
+    },
+    {
+        "categoria" : "Tarjetas Gráficas",
+        "img" : "https://i.ibb.co/WshSRdn/71-Ami-Glx-IML-AC-SL1500.jpg"
+    },
+    {
+        "categoria" : "Memorias RAM",
+        "img" : "https://i.ibb.co/rm6CnzD/71e6-YWJio-L-AC-SL1500.jpg"
+    },
+    {
+        "categoria" : "SSD",
+        "img" : "https://i.ibb.co/FBC1f0z/61u-w0n-MDTL-AC-SL1500.jpg"
+    }
+]
