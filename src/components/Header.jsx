@@ -40,23 +40,6 @@ const Header = ({ logueado, setAbrirModal }) => {
 
                   <li>
                     <NavLink
-                      className="text-gray-500 transition hover:text-gray-500/75"
-                      to="/acerca-de-nosotros"
-                    >
-                      Acerca de nosotros
-                    </NavLink>
-                  </li>
-                  <li>
-                    <NavLink
-                      className="text-gray-500 transition hover:text-gray-500/75"
-                      to="/contactanos"
-                    >
-                      Contactacnos
-                    </NavLink>
-                  </li>
-
-                  <li>
-                    <NavLink
                       className="text-gray-500 transition hover:text-blue-500/75"
                       to="/tu-carrito"
                     >

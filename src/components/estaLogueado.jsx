@@ -40,7 +40,7 @@ export const NoLogueado = ({setAbrirModal}) => {
         <div className="hidden sm:flex">
           <NavLink
             className="rounded-md bg-gray-100 px-5 py-2.5 text-sm font-medium text-yellow-500 hover:scale-105 transition duration-300 ease-in-out"
-            to="/"
+            to="/registro"
           >
             Registrate
           </NavLink>

@@ -5,6 +5,8 @@ import TuCarrito from './pages/Tu-carrito';
 import Header from './components/Header';
 import { useState } from "react";
 import Modals from "./components/Modals";
+import NoFound from './components/NoFound';
+import Registro from './pages/Registro';
 
 function App() {
   const [abrirModal, setAbrirModal] = useState(false);
@@ -17,7 +19,9 @@ function App() {
           <Route path='/' element={<Inicio />}/>
           <Route path='/acerca-de-nosotros' element />
           <Route path='/categorias' element />
+          <Route path='/registro' element={<Registro/>} />
           <Route path='/tu-carrito' element={<TuCarrito logueado={false}/>} />
+          <Route path='*' element={<NoFound/>}/>
         </Routes>
       </Router>
     </>
