@@ -1,6 +1,6 @@
 import { Facebook, Google } from "./Svgs";
 
-const Inputs = ({nombre, type, id,w}) => {
+export const Inputs = ({nombre, type, id,w}) => {
     return (
       <label
         htmlFor={id}
@@ -41,7 +41,7 @@ const Inputs = ({nombre, type, id,w}) => {
             />
           </div>
           <div className="w-full">
-            <button className="w-96 border rounded-md py-2  bg-yellow-500 text-white font-semibold">
+            <button className="w-96 border rounded-md py-2  bg-yellow-500 text-white font-semibold hover:opacity-90">
               Ingresar
             </button>
           </div>
@@ -55,11 +55,11 @@ const Inputs = ({nombre, type, id,w}) => {
             </span>
           </div>
           <div className="w-full flex justify-center items-center flex-col gap-2">
-            <button className="w-96 border rounded-md py-2 flex gap-2">
+            <button className="w-96 border rounded-md py-2 flex gap-2 hover:opacity-80">
               <Google />
               <p className="pl-10">Iniciar sesión con google</p>
             </button>
-            <button className="w-96 border rounded-md py-2 flex gap-2">
+            <button className="w-96 border rounded-md py-2 flex gap-2 hover:opacity-80">
               <Facebook/>
               <p className="pl-10">Iniciar sesión con facebook</p>
             </button>

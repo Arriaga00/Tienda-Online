@@ -2,10 +2,10 @@ import { NavLink } from "react-router-dom";
 import Logo from "../assets/Custom.png";
 import { Logueado, NoLogueado } from "./estaLogueado";
 
-const Header = ({ logueado, setAbrirModal }) => {
+ const Header = ({ logueado, setAbrirModal }) => {
   const obtenerColores = () => {
     const btnActivo = "text-blue-500";
-    const btnNoActivo = "text-gray-500 transition hover:text-blue-500";
+    const btnNoActivo = "text-gray-500/75 transition hover:text-blue-500";
     const btnIniCat = "text-yellow-500";
     const btnNoIniCat = "text-gray-500 transition hover:text-gray-500";
     return { btnActivo, btnNoActivo, btnIniCat, btnNoIniCat };
