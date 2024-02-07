@@ -3,6 +3,15 @@ import Logo from "../assets/Custom.png";
 import { Logueado, NoLogueado } from "./estaLogueado";
 
 const Header = ({ logueado, setAbrirModal }) => {
+  const obtenerColores = () => {
+    const btnActivo = "text-blue-500";
+    const btnNoActivo = "text-gray-500 transition hover:text-blue-500";
+    const btnIniCat = "text-yellow-500";
+    const btnNoIniCat = "text-gray-500 transition hover:text-gray-500";
+    return { btnActivo, btnNoActivo, btnIniCat, btnNoIniCat };
+  };
+  const colores = obtenerColores();
+
   return (
     <>
       <header
@@ -22,7 +31,9 @@ const Header = ({ logueado, setAbrirModal }) => {
                 <ul className="flex items-center gap-6 text-sm">
                   <li>
                     <NavLink
-                      className="text-gray-500 transition hover:text-gray-500/75"
+                      className={({ isActive }) =>
+                        isActive ? colores.btnIniCat : colores.btnNoIniCat
+                      }
                       to="/"
                     >
                       Inicio
@@ -31,7 +42,9 @@ const Header = ({ logueado, setAbrirModal }) => {
 
                   <li>
                     <NavLink
-                      className="text-gray-500 transition hover:text-gray-500/75"
+                      className={({ isActive }) =>
+                        isActive ? colores.btnIniCat : colores.btnNoIniCat
+                      }
                       to="/categorias"
                     >
                       Categorias
@@ -40,7 +53,9 @@ const Header = ({ logueado, setAbrirModal }) => {
 
                   <li>
                     <NavLink
-                      className="text-gray-500 transition hover:text-blue-500"
+                      className={({ isActive }) =>
+                        isActive ? colores.btnActivo : colores.btnNoActivo
+                      }
                       to="/tu-carrito"
                     >
                       <svg
