@@ -40,7 +40,7 @@ const Header = ({ logueado, setAbrirModal }) => {
 
                   <li>
                     <NavLink
-                      className="text-gray-500 transition hover:text-blue-500/75"
+                      className="text-gray-500 transition hover:text-blue-500"
                       to="/tu-carrito"
                     >
                       <svg
