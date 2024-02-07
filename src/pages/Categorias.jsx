@@ -1,4 +1,4 @@
-import Cards from "../components/cards";
+import Cards from "../components/Cards";
 import Data from "../data/categorias.json";
 
 const Categorias = () => {
