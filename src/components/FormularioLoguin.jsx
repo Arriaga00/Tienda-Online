@@ -1,6 +1,6 @@
 import { Facebook, Google } from "./Svgs";
 
-export const Inputs = ({nombre, type, id,w}) => {
+export const Inputs = ({nombre, type, id,w, onChange}) => {
     return (
       <label
         htmlFor={id}
@@ -11,7 +11,8 @@ export const Inputs = ({nombre, type, id,w}) => {
           id={id}
           placeholder="Email"
           className={`peer h-8 w-full border-none bg-transparent p-0 placeholder-transparent focus:border-transparent focus:outline-none focus:ring-0 sm:text-sm  `}
-          
+          onChange={onChange}
+          required
         />
   
         <span className="absolute start-3 top-3 -translate-y-1/2 text-xs text-slate-400 transition-all peer-placeholder-shown:top-1/2 peer-placeholder-shown:text-sm peer-focus:top-3 peer-focus:text-xs">
