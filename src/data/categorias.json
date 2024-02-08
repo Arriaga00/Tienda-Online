@@ -22,5 +22,13 @@
     {
         "categoria" : "SSD",
         "img" : "https://i.ibb.co/FBC1f0z/61u-w0n-MDTL-AC-SL1500.jpg"
+    },
+    {
+        "categoria" : "Procesadores",
+        "img" : "https://i.ibb.co/XkYX37j/51-Xrq-Gf-Jv-OL-AC-SL1384.jpg"
+    },
+    {
+        "categoria": "Refrigeracion Liquida",
+        "img": "https://m.media-amazon.com/images/I/61Tm1CQgUsL._SL1500_.jpg"
     }
 ]

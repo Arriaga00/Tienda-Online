@@ -18,7 +18,6 @@ function App() {
       <Modals setAbrirModal={setAbrirModal} abrirModal={abrirModal} />
         <Routes>
           <Route path='/' element={<Inicio />}/>
-          <Route path='/acerca-de-nosotros' element />
           <Route path='/categorias' element={<Categorias/>} />
           <Route path='/registro' element={<Registro/>} />
           <Route path='/tu-carrito' element={<TuCarrito logueado={false}/>} />
