@@ -29,7 +29,7 @@ export const Logueado = () => {
 export const NoLogueado = ({setAbrirModal}) => {
   return (
     <>
-      <div className="sm:flex sm:gap-4">
+      <div className="lg:flex hidden sm:gap-4">
         <button
           className="rounded-md bg-[#f5c06a] px-5 py-2.5 text-sm font-medium text-white shadow cursor-pointer hover:scale-105 transition duration-300 ease-in-out"
           onClick={() => setAbrirModal(true)}
@@ -37,9 +37,9 @@ export const NoLogueado = ({setAbrirModal}) => {
           Ingresar
         </button>
 
-        <div className="hidden sm:flex">
+        <div className="hidden lg:flex">
           <NavLink
-            className="rounded-md bg-gray-100 px-5 py-2.5 text-sm font-medium text-yellow-500 hover:scale-105 transition duration-300 ease-in-out"
+            className="rounded-md bg-gray-100 px-5 py-2.5 text-sm font-medium text-yellow-500 hover:scale-105 transition duration-300 ease-in-out "
             to="/registro"
           >
             Registrate
@@ -49,3 +49,4 @@ export const NoLogueado = ({setAbrirModal}) => {
     </>
   );
 };
+

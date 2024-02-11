@@ -1,13 +1,14 @@
 import { NavLink } from "react-router-dom";
 import Logo from "../assets/Custom.png";
 import { Logueado, NoLogueado } from "./estaLogueado";
+import InputBusqueda from "./inputBusqueda";
 
  const Header = ({ logueado, setAbrirModal }) => {
   const obtenerColores = () => {
-    const btnActivo = "text-blue-500";
-    const btnNoActivo = "text-gray-500/75 transition hover:text-blue-500";
-    const btnIniCat = "text-yellow-500";
-    const btnNoIniCat = "text-gray-500 transition hover:text-gray-500";
+    const btnActivo = "text-blue-500 lg:flex hidden ";
+    const btnNoActivo = "text-gray-500/75 transition hover:text-blue-500 lg:flex hidden ";
+    const btnIniCat = "text-yellow-500 lg:flex hidden ";
+    const btnNoIniCat = "text-gray-500 transition hover:text-gray-500 lg:flex hidden ";
     return { btnActivo, btnNoActivo, btnIniCat, btnNoIniCat };
   };
   const colores = obtenerColores();
@@ -24,6 +25,10 @@ import { Logueado, NoLogueado } from "./estaLogueado";
               <NavLink className="block" to="/">
                 <img src={Logo} alt="" width={"300px"} />
               </NavLink>
+            </div>
+
+            <div>
+              <InputBusqueda/>
             </div>
 
             <div className="md:flex md:items-center md:gap-12">
@@ -83,7 +88,7 @@ import { Logueado, NoLogueado } from "./estaLogueado";
                 ) : (
                   <NoLogueado setAbrirModal={setAbrirModal} />
                 )}
-                <div className="block md:hidden">
+                <div className="block lg:hidden">
                   <button className="rounded bg-gray-100 p-2 text-gray-600 transition hover:text-gray-600/75">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
