@@ -2,7 +2,7 @@
 import { Facebook, Google } from "./Svgs";
 import usuarios from '../data/usuarios.json'
 
-export const Inputs = ({nombre, type, id,w, onChange,}) => {
+export const Inputs = ({nombre, type, id, w, onChange}) => {
     return (
       <label
         htmlFor={id}
@@ -24,11 +24,7 @@ export const Inputs = ({nombre, type, id,w, onChange,}) => {
     );
   };
 
-
-
-  
-  const FormularioLoguin = ({datosUsuarios,setDatosUsuarios, setUsuario,usuario,setInformacionUsuario}) => {
-
+const FormularioLoguin = ({datosUsuarios,setDatosUsuarios, setUsuario,usuario,setInformacionUsuario,setAbrirModal}) => {
     const valorInput = (e)=>{
       setDatosUsuarios({
         ...datosUsuarios,
@@ -45,7 +41,8 @@ export const Inputs = ({nombre, type, id,w, onChange,}) => {
       if (usuarioEncontrado) {
         setUsuario(true);
         setInformacionUsuario(datosUsuarios)
-      }
+        setAbrirModal(false)
+      } 
       console.log(usuario);
     }
 
@@ -92,4 +89,3 @@ export const Inputs = ({nombre, type, id,w, onChange,}) => {
   };
 
   export default FormularioLoguin;
-  

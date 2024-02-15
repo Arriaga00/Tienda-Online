@@ -43,7 +43,7 @@ const Modals = ({ abrirModal, setAbrirModal,setUsuario, usuario,setInformacionUs
             </button>
             {/* Formulario */}
             <div className="w-full flex justify-center items-center ">
-              <FormularioLoguin datosUsuarios={datosUsuarios} setDatosUsuarios={setDatosUsuarios} setUsuario={setUsuario}  usuario={usuario} setInformacionUsuario={setInformacionUsuario}/>
+              <FormularioLoguin datosUsuarios={datosUsuarios} setDatosUsuarios={setDatosUsuarios} setUsuario={setUsuario}  usuario={usuario} setInformacionUsuario={setInformacionUsuario} setAbrirModal={setAbrirModal}/>
             </div>
           </div>
         </div>
