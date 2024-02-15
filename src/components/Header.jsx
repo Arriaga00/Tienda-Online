@@ -2,7 +2,7 @@
 import { NavLink } from "react-router-dom";
 import Logo from "../assets/Custom.png";
 import { Logueado, NoLogueado } from "./estaLogueado";
-import InputBusqueda from "./inputBusqueda";
+import InputBusqueda from "./InputBusqueda";
 
  const Header = ({ logueado, setAbrirModal, informacionUsuario }) => {
   const obtenerColores = () => {
