@@ -92,4 +92,4 @@ export const Inputs = ({nombre, type, id, w, onChange}) => {
     );
   };
 
-  export default FormularioLoguin
+  export default FormularioLoguin;
