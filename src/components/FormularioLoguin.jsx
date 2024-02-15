@@ -24,7 +24,11 @@ export const Inputs = ({nombre, type, id, w, onChange}) => {
     );
   };
 
-const FormularioLoguin = ({datosUsuarios,setDatosUsuarios, setUsuario,usuario,setInformacionUsuario,setAbrirModal}) => {
+
+
+  
+  const FormularioLoguin = ({datosUsuarios,setDatosUsuarios, setUsuario,usuario,setInformacionUsuario,setAbrirModal}) => {
+
     const valorInput = (e)=>{
       setDatosUsuarios({
         ...datosUsuarios,
@@ -39,10 +43,10 @@ const FormularioLoguin = ({datosUsuarios,setDatosUsuarios, setUsuario,usuario,se
       );
         
       if (usuarioEncontrado) {
+        setAbrirModal(false)
         setUsuario(true);
         setInformacionUsuario(datosUsuarios)
-        setAbrirModal(false)
-      } 
+      }
       console.log(usuario);
     }
 
