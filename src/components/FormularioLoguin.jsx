@@ -2,7 +2,7 @@
 import { Facebook, Google } from "./Svgs";
 import usuarios from '../data/usuarios.json'
 
-export const Inputs = ({nombre, type, id,w, onChange,}) => {
+export const Inputs = ({nombre, type, id, w, onChange}) => {
     return (
       <label
         htmlFor={id}
@@ -92,5 +92,4 @@ export const Inputs = ({nombre, type, id,w, onChange,}) => {
     );
   };
 
-  export default FormularioLoguin;
-  
+  export default FormularioLoguin
