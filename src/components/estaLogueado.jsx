@@ -1,5 +1,6 @@
+/* eslint-disable react/prop-types */
 import { NavLink } from "react-router-dom";
-export const Logueado = () => {
+export const Logueado = ({informacionUsuario}) => {
   return (
     <>
       <div className="px-2 py-1 bg-green-200 rounded-lg flex gap-2">
@@ -19,8 +20,8 @@ export const Logueado = () => {
         </svg>
       </div>
       <div>
-          <p className="text-sm text-start text-slate-400">Andres Arriaga</p>
-          <p className="text-sm text-slate-400">andresfelipe@gmail.com</p>
+          <p className="text-sm text-start text-slate-400">{informacionUsuario.nombre}</p>
+          <p className="text-sm text-slate-400">{informacionUsuario.email}</p>
         </div>  
     </>
   );

@@ -1,9 +1,10 @@
+/* eslint-disable react/prop-types */
 import { NavLink } from "react-router-dom";
 import Logo from "../assets/Custom.png";
 import { Logueado, NoLogueado } from "./estaLogueado";
 import InputBusqueda from "./inputBusqueda";
 
- const Header = ({ logueado, setAbrirModal }) => {
+ const Header = ({ logueado, setAbrirModal, informacionUsuario }) => {
   const obtenerColores = () => {
     const btnActivo = "text-blue-500 lg:flex hidden ";
     const btnNoActivo = "text-gray-500/75 transition hover:text-blue-500 lg:flex hidden ";
@@ -84,7 +85,7 @@ import InputBusqueda from "./inputBusqueda";
 
               <div className="flex items-center gap-4">
                 {logueado ? (
-                  <Logueado />
+                  <Logueado informacionUsuario={informacionUsuario}/>
                 ) : (
                   <NoLogueado setAbrirModal={setAbrirModal} />
                 )}

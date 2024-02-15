@@ -1,7 +1,12 @@
+/* eslint-disable react/prop-types */
 import { useState, useEffect } from "react";
 import FormularioLoguin from "./FormularioLoguin";
 
-const Modals = ({ abrirModal, setAbrirModal }) => {
+const Modals = ({ abrirModal, setAbrirModal,setUsuario, usuario,setInformacionUsuario}) => {
+  const [datosUsuarios,setDatosUsuarios] = useState({
+    email : '',
+    contraseña : ''
+  })
   const [modalClass, setModalClass] = useState("scale-0");
   const [isVisible, setIsVisible] = useState(false);
 
@@ -38,7 +43,7 @@ const Modals = ({ abrirModal, setAbrirModal }) => {
             </button>
             {/* Formulario */}
             <div className="w-full flex justify-center items-center ">
-              <FormularioLoguin/>
+              <FormularioLoguin datosUsuarios={datosUsuarios} setDatosUsuarios={setDatosUsuarios} setUsuario={setUsuario}  usuario={usuario} setInformacionUsuario={setInformacionUsuario}/>
             </div>
           </div>
         </div>

@@ -1,0 +1,52 @@
+[
+    {
+      "nombre" : "Diego Jhondoe",
+      "email": "diego@gmail.com",
+      "contraseña": "Jhondoe"
+    },
+    {
+      "nombre" : "Jane Smith",
+      "email": "Jane.Smith@gmail.com",
+      "contraseña": "S3cur3P@ss"
+    },
+    {
+      "nombre" : "Michael Johnson",
+      "email": "Michael.Johnson@gmail.com",
+      "contraseña": "Michael123"
+    },
+    {
+      "nombre" : "Emily Wilson",
+      "email": "Emily.Wilson@gmail.com",
+      "contraseña": "Wilson10"
+    },
+    {
+      "nombre" : "David Brown",
+      "email": "David.Brown@gmail.com",
+      "contraseña": "DaviB"
+    },
+    {
+      "nombre" : "Sarah Taylor",
+      "email": "Sarah.Taylor@gmail.com",
+      "contraseña": "Saris"
+    },
+    {
+      "nombre" : "Christopher Lee",
+      "email": "Christopher.Lee@gmail.com",
+      "contraseña": "Pepito10"
+    },
+    {
+      "nombre" : "Olivia Anderson",
+      "email": "Olivia.Anderson@gmail.com",
+      "contraseña": "MyPost189"
+    },
+    {
+      "nombre" : "Daniel Thomas",
+      "email": "Daniel.Thomas@gmail.com",
+      "contraseña": "Luan123"
+    },
+    {
+      "nombre" : "Sophia White",
+      "email": "Sophia.White@gmail.com",
+      "contraseña": "LaDmejor"
+    }
+  ]

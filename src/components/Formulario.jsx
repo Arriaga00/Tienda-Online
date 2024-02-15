@@ -50,7 +50,7 @@ const Formulario = () => {
         <p className='text-gray-500'>¿Ya tienes una cuenta? <NavLink to='/' className='underline text-black pl-3 hover:text-blue-500'>Inicia sesión</NavLink>.</p>
     </div>
     </form>
-    <span ref={refSpan}></span>
+    <span ref={refSpan} className='flex flex-wrap  overflow-auto w-full max-w-xs sm:max-w-full '></span>
     </>
   )
 }

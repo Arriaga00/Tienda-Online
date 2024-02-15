@@ -1,6 +1,8 @@
+/* eslint-disable react/prop-types */
 import { Facebook, Google } from "./Svgs";
+import usuarios from '../data/usuarios.json'
 
-export const Inputs = ({nombre, type, id,w, onChange}) => {
+export const Inputs = ({nombre, type, id,w, onChange,}) => {
     return (
       <label
         htmlFor={id}
@@ -21,8 +23,32 @@ export const Inputs = ({nombre, type, id,w, onChange}) => {
       </label>
     );
   };
+
+
+
   
-  const FormularioLoguin = () => {
+  const FormularioLoguin = ({datosUsuarios,setDatosUsuarios, setUsuario,usuario,setInformacionUsuario}) => {
+
+    const valorInput = (e)=>{
+      setDatosUsuarios({
+        ...datosUsuarios,
+        [e.target.id] : e.target.value
+      })
+      console.log(datosUsuarios)
+    } 
+
+    const Validacion = () => {
+      const usuarioEncontrado = usuarios.find(
+        usuario => usuario.email === datosUsuarios.email && usuario.contraseña === datosUsuarios.contraseña
+      );
+        
+      if (usuarioEncontrado) {
+        setUsuario(true);
+        setInformacionUsuario(datosUsuarios)
+      }
+      console.log(usuario);
+    }
+
     return (
       <>
         <form
@@ -31,18 +57,13 @@ export const Inputs = ({nombre, type, id,w, onChange}) => {
         >
           <h2 className=" text-2xl w-40 ">Inicia Sesión</h2>
           <div className="flex justify-center">
-            <Inputs nombre={"usuario"} type={"email"} id={"email"} w={"w-96"} />
+            <Inputs nombre={"usuario"} type={"email"} id={"email"} w={"w-96"} onChange={valorInput} />
           </div>
           <div className="flex justify-center">
-            <Inputs
-              nombre={"contraseña"}
-              type={"password"}
-              id={"contraseña"}
-              w={"w-96"}
-            />
+            <Inputs nombre={"contraseña"} type={"password"} id={"contraseña"} w={"w-96"} onChange={valorInput} />
           </div>
           <div className="w-full">
-            <button className="w-96 border rounded-md py-2  bg-yellow-500 text-white font-semibold hover:opacity-90">
+            <button className="w-96 border rounded-md py-2  bg-yellow-500 text-white font-semibold hover:opacity-90" onClick={(e)=>{e.preventDefault(),Validacion()}}>
               Ingresar
             </button>
           </div>

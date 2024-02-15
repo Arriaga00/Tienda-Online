@@ -11,11 +11,17 @@ import Categorias from './pages/Categorias';
 
 function App() {
   const [abrirModal, setAbrirModal] = useState(false);
+  const [usuario,setUsuario] = useState(false)
+  const [informacionUsuario,setInformacionUsuario] = useState({
+    nombre : '',
+    email : '',
+    contraseña : ''
+  })
   return (
     <>
       <Router>
-      <Header logueado={false} setAbrirModal={setAbrirModal} />
-      <Modals setAbrirModal={setAbrirModal} abrirModal={abrirModal} />
+      <Header logueado={usuario} setAbrirModal={setAbrirModal}  informacionUsuario={informacionUsuario}/>
+      <Modals setAbrirModal={setAbrirModal} abrirModal={abrirModal} setUsuario={setUsuario} usuario={usuario} setInformacionUsuario={setInformacionUsuario}/>
         <Routes>
           <Route path='/' element={<Inicio />}/>
           <Route path='/categorias' element={<Categorias/>} />
