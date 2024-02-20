@@ -11,7 +11,7 @@ export const Inputs = ({nombre, type, id, w, onChange}) => {
         <input
           type={type}
           id={id}
-          placeholder="Email"
+          placeholder={nombre}
           className={`peer h-8 w-full border-none bg-transparent p-0 placeholder-transparent focus:border-transparent focus:outline-none focus:ring-0 sm:text-sm  `}
           onChange={onChange}
           required
