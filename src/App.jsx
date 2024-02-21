@@ -13,7 +13,6 @@ function App() {
   const [abrirModal, setAbrirModal] = useState(false);
   const [usuario,setUsuario] = useState(false)
   const [informacionUsuario,setInformacionUsuario] = useState({
-    nombre : '',
     email : '',
     contraseña : ''
   })

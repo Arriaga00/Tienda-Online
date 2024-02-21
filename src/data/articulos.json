@@ -1,0 +1,68 @@
+[
+    {
+        "categoria": "Teclados",
+        "img": "https://m.media-amazon.com/images/I/61s9wclSQGL._AC_SL1500_.jpg",
+        "titulo":"KEMOVE K68se Teclado mecánico para juegos, teclado RGB 60% con interruptor lineal rojo, blanco",
+        "precio":26.99
+    },
+    {
+        "categoria": "Teclados",
+        "img": "https://m.media-amazon.com/images/I/61p8p2uAJJL._AC_SL1500_.jpg",
+        "titulo":"YIMAGUJRX Cable en espiral para teclado, cable tipo C a USB A en espiral personalizado, cable de doble manga con conector aviador de metal de 2 generaciones para teclado mecánico de juegos",
+        "precio":22.99
+    },
+    {
+        "categoria": "Mouse",
+        "img": "https://m.media-amazon.com/images/I/51f4KLuHTML._AC_SL1500_.jpg",
+        "titulo":"Rapoo Ratón inalámbrico multidispositivo MT760, Bluetooth 5.0/3.0 y conexión trimodo de 2.4 GHz, hasta 4 dispositivos, 11 botones programables, 4K DPI, diseño ergonómico, duración de la batería de 90",
+        "precio":49.99
+    },
+    {
+        "categoria": "Pantallas",
+        "img": "https://m.media-amazon.com/images/I/71P1MZ8ztDL._AC_SL1500_.jpg",
+        "titulo":"Sceptre Curved 24.5-inch Gaming Monitor • up to 240Hz • 1080p • R1500 • 1ms • DisplayPort x2 • HDMI x2 • Blue Light Shift • Build-in Speakers • Machine Black • 2023 (C255B-FWT240)",
+        "precio":149.97
+    },
+    {
+        "categoria": "Procesadores",
+        "img": "https://m.media-amazon.com/images/I/71FpoBA7ZcL._AC_SL1200_.jpg",
+        "titulo":"iBUYPOWER Computadora de escritorio Pro Y60 para juegos Y60BI9N4701 (Intel i9-13900KF 3.0 GHz, Nvidia GeForce RTX 4070 12GB, 32 GB 5200 MHz DDR5 RAM, 1TB NVMe SSD, WiFi listo, Windows 11 Home), negro",
+        "precio":1799.99
+    },
+    {
+        "categoria": "Teclados",
+        "img": "https://m.media-amazon.com/images/I/61vPb4buZkL._AC_SL1500_.jpg",
+        "titulo":"GOWENIC Mini teclado mecánico de 6 teclas, teclado mecánico para juegos con cable USB inalámbrico Bluetooth modo dual, teclado OSU HID teclado programable, para juegos de oficina, regalo de música",
+        "precio":34.08
+    },
+    {
+        "categoria": "Teclados",
+        "img": "https://m.media-amazon.com/images/I/61Ee6s4OmLL._AC_SL1500_.jpg",
+        "titulo":"AJAZZ KA820 Teclado mecánico con cable RGB 75% con cable con perilla de volumen - Junta de espuma Poron montada - LED orientado al sur - Tecla PBT de perfil OME - Interruptor lineal personalizado",
+        "precio":48.99
+    },
+    {
+        "categoria": "Refrigeracion",
+        "img": "https://m.media-amazon.com/images/I/61fsXU-rHeL._AC_SL1500_.jpg",
+        "titulo":"DeepCool LS720 SE Enfriador líquido 14.173 in 4ª generación bomba de doble cámara 3100RPM 300w TDP AIO Cooler Anti-Leak Tech 5v-3pin ARGB Ventiladores CPU enfriador de agua Infinity Mirror Block para",
+        "precio":87.99
+    },
+    {
+        "categoria": "Graficas",
+        "img": "https://m.media-amazon.com/images/I/71tduSp8ooL._AC_SL1500_.jpg",
+        "titulo":"MSI Tarjeta gráfica GeForce RTX 3060 12GB 15 Gbps GDRR6 192-Bit HDMI/DP PCIe 4 Torx Twin Fan Ampere OC",
+        "precio":289.39
+    },
+    {
+        "categoria": "Procesadores",
+        "img": "https://m.media-amazon.com/images/I/51rz9osumDL._AC_SL1000_.jpg",
+        "titulo":"AMD Procesador de escritorio Ryzen™ 7 5800X3D de 8 núcleos y 16 hilos con tecnología AMD 3D V-Cache™",
+        "precio":288.09
+    },
+    {
+        "categoria": "Refrigeracion",
+        "img": "https://m.media-amazon.com/images/I/81OzpWhMNkL._AC_SL1500_.jpg",
+        "titulo":"Noctua NH-L9x65 SE-AM4 • Premium Low-Profile CPU Cooler • with 92mm Fan • for AMD AM4 • Brown",
+        "precio":59.95
+    }
+]
