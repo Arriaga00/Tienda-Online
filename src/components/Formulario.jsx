@@ -6,6 +6,7 @@ import {  useState } from 'react'
 import TablaRegistro from './TablaRegistro'
 
 const Formulario = () => {
+  const [info,setInfo] = useState([])
   const [mostrarTabla,setMostrarTabla] = useState(false)
   const [valorForm,setValorForm] = useState({
     nombre : '',
@@ -25,6 +26,8 @@ const Formulario = () => {
   const clickBtn = (e)=>{
     e.preventDefault()
     setMostrarTabla(true)
+     setInfo([...info,valorForm])
+
   }
 
   return (
@@ -51,7 +54,11 @@ const Formulario = () => {
         <p className='text-gray-500'>¿Ya tienes una cuenta? <NavLink to='/' className='underline text-black pl-3 hover:text-blue-500'>Inicia sesión</NavLink>.</p>
     </div>
     </form>
-    <span  className='flex flex-wrap  overflow-auto w-full max-w-xs sm:max-w-full '>{mostrarTabla && <TablaRegistro infoUser={valorForm}/>}</span>
+    <span  className='flex flex-wrap flex-col gap-2  overflow-auto w-full max-w-xs sm:max-w-full '>{mostrarTabla && info.map((el,i)=>{
+      return(
+        <TablaRegistro key={i} infoUser={el}/>
+      )
+    })}</span>
     </>
   )
 }
