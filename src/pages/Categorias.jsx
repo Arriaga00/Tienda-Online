@@ -1,4 +1,5 @@
 import Cards from "../components/Cards";
+import Pie from "../components/Pie";
 import Data from "../data/categorias.json";
 
 const Categorias = () => {
@@ -13,6 +14,7 @@ const Categorias = () => {
           })}
         </main>
       </section>
+      <Pie/>
     </>
   );
 };
