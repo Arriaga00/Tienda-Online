@@ -5,7 +5,7 @@ import Data from "../data/categorias.json";
 const Categorias = () => {
   return (
     <>
-      <section className=" flex justify-center items-center h-screen w-full flex-wrap ">
+      <section className=" flex justify-center items-center h-auto w-full flex-wrap mt-10">
         <main className="max-w-[1500px] flex gap-5 flex-wrap justify-center mt-20">
           {Data.map((el) => {
             return (

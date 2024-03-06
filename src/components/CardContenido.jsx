@@ -3,7 +3,7 @@
 const CardContenido = ({descripcion,precio,img}) => {
   return (
     <>
-    <article className="group w-80 border pb-5">
+    <article className="group w-80 border pb-5 hover:scale-105 ease-in-out transition-all">
         <img
             alt=""
             src={img}
