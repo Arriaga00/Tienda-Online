@@ -1,4 +1,11 @@
-const InputBusqueda = () => {
+/* eslint-disable react/prop-types */
+const InputBusqueda = ({setFiltrado}) => {
+
+    const buscar = (e) => {
+      let texto = e.target.value
+      setFiltrado(texto)
+    }
+
     return (
       <>
         <div className="relative mr-5">
@@ -11,6 +18,7 @@ const InputBusqueda = () => {
             id="Buscar"
             placeholder="Buscar..."
             className="w-full rounded-md border-gray-300 py-2.5 pe-10 shadow-sm sm:text-sm px-2 border focus:border-blue-500 focus:outline-none"
+            onChange={buscar}
           />
   
           <span className="absolute inset-y-0 end-0 grid w-10 place-content-center">

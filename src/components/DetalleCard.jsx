@@ -16,7 +16,7 @@ const DetalleCard = () => {
             <div className="relative z-10 lg:py-16">
               <div className="relative h-64 sm:h-80 lg:h-full">
                 <img
-                  alt=""
+                  alt="product"
                   src={product.img}
                   className="absolute inset-0 h-full w-full object-center border"
                 />
@@ -35,12 +35,12 @@ const DetalleCard = () => {
                 {product.detalle}
                 </p>
 
-                <a
+                <button
                   href="#"
                   className="mt-8 inline-block rounded border border-yellow-600 bg-yellow-600 px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-yellow-600 focus:outline-none focus:ring active:text-yellow-500"
                 >
                   Añadir al carrito
-                </a>
+                </button>
               </div>
             </div>
           </div>
@@ -50,7 +50,7 @@ const DetalleCard = () => {
     </>
   ) : (
     <section className="mt-20 flex gap-3 justify-center">
-        <p>Producto no encontrado ❌❌</p>
+    <p>Producto no encontrado ❌❌</p>
     <NavLink className="underline font-bold text-blue-500" to={'/'}>Voler al inicio</NavLink>
     </section>
   );

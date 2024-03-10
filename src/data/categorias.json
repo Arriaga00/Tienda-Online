@@ -12,11 +12,11 @@
         "img" : "https://i.ibb.co/0qLyZFD/619-Wkazn-IJL-AC-SL1080.jpg"
     },
     {
-        "categoria" : "Tarjetas Graficas",
+        "categoria" : "Graficas",
         "img" : "https://i.ibb.co/WshSRdn/71-Ami-Glx-IML-AC-SL1500.jpg"
     },
     {
-        "categoria" : "Memorias RAM",
+        "categoria" : "Memorias",
         "img" : "https://i.ibb.co/rm6CnzD/71e6-YWJio-L-AC-SL1500.jpg"
     },
     {
@@ -28,7 +28,7 @@
         "img" : "https://i.ibb.co/XkYX37j/51-Xrq-Gf-Jv-OL-AC-SL1384.jpg"
     },
     {
-        "categoria": "Refrigeracion Liquida",
+        "categoria": "Refrigeracion",
         "img": "https://m.media-amazon.com/images/I/61Tm1CQgUsL._SL1500_.jpg"
     }
 ]

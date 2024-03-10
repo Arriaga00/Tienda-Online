@@ -4,7 +4,7 @@ import Logo from "../assets/Custom.png";
 import { Logueado, NoLogueado } from "./estaLogueado";
 import InputBusqueda from "./InputBusqueda";
 
- const Header = ({ logueado, setAbrirModal, informacionUsuario }) => {
+ const Header = ({ logueado, setAbrirModal, informacionUsuario, setFiltrado }) => {
   const obtenerColores = () => {
     const btnActivo = "text-blue-500 lg:flex hidden ";
     const btnNoActivo = "text-gray-500/75 transition hover:text-blue-500 lg:flex hidden ";
@@ -29,7 +29,7 @@ import InputBusqueda from "./InputBusqueda";
             </div>
 
             <div>
-              <InputBusqueda/>
+              <InputBusqueda setFiltrado={setFiltrado}/>
             </div>
 
             <div className="md:flex md:items-center md:gap-12">
