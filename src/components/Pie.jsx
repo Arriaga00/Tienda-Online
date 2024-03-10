@@ -247,7 +247,7 @@ const Pie = () => {
               <br />
               Creado por
               <a
-                href="#"
+                href="https://arriagadev.vercel.app"
                 className="text-gray-700 underline transition hover:text-gray-700/75"
               >
                 Arriaga Dev

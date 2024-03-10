@@ -1,68 +1,87 @@
 [
-    {
+    {   
+        "titulo" : "KEMOVE K68se Teclado",
         "categoria": "Teclados",
         "img": "https://m.media-amazon.com/images/I/61s9wclSQGL._AC_SL1500_.jpg",
-        "titulo":"KEMOVE K68se Teclado mecánico para juegos, teclado RGB 60% con interruptor lineal rojo, blanco",
-        "precio":26.99
+        "descriccion": "KEMOVE K68se Teclado mecánico para juegos, teclado RGB 60% con interruptor lineal rojo, blanco",
+        "detalle" : "🌈【Mini teclado del 60%】El K68se es un teclado compacto de 68 teclas con un diseño único de contorno corporal que libera más espacio en el escritorio mientras mantiene una funcionalidad completa. Cuenta con teclas de flecha independientes, teclas de eliminación y teclas de función adicionales, lo que lo hace más práctico que los teclados de 61 teclas 🌈【Interruptores mecánicos】Nuestro interruptor mecánico autodesarrollado tiene una vida útil de prensa de un solo interruptor de 60 millones de veces, y la sensación dura mucho sin cambios significativos. El K68se ofrece tres opciones de interruptor: rojo, azul y marrón, para satisfacer diferentes necesidades. El interruptor rojo es perfecto para la oficina y los juegos, el interruptor azul es ideal para trabajadores de texto profesionales, y el interruptor marrón ofrece resistencia media y retroalimentación táctil precisa 🌈【Hermoso efecto RGB】El K68se cuenta con un rico sistema de iluminación dinámica RGB con 19 modos de retroiluminación y 5 modos de luz lateral. Con 16,8 millones de colores RGB incorporados, puedes personalizar el modo de iluminación y el ritmo de la música utilizando el controlador de software. En la oscuridad, es la presencia más brillante 🌈【Experiencia de juego suave】El teclado mecánico K68se es compatible con Windows, Linus y Mac. Las teclas completas anti-ghosting te ofrecen una experiencia de juego más suave. El cable de teclado USB-C desmontable hace que el teclado para juegos sea más portátil y personalizado 🌈【Teclado ergonómico para juegos】El diseño de este teclado mecánico para juegos se basa en la ergonomía. El diseño científico de teclas de escalera aporta la máxima comodidad, manteniendo tu mano en un estado más natural para minimizar la fatiga de la mano después de un uso prolongado. Perfecto para jugadores, trabajadores de oficina, redactores, profesores de mecanografía y editores 🌈【Servicio sincero】Ofrecemos una garantía de un año para cada cliente que compra un teclado mecánico KEMOVE Si tienes alguna pregunta sobre nuestros productos, ponte en contacto con nuestro equipo (haz clic en el nombre de la tienda) y esperamos que tengas una maravillosa experiencia de compra",
+        "precio": 26.99
     },
     {
+        "titulo" : "YIMAGUJRX Cable en espiral para teclado",
         "categoria": "Teclados",
         "img": "https://m.media-amazon.com/images/I/61p8p2uAJJL._AC_SL1500_.jpg",
-        "titulo":"YIMAGUJRX Cable en espiral para teclado, cable tipo C a USB A en espiral personalizado, cable de doble manga con conector aviador de metal de 2 generaciones para teclado mecánico de juegos",
-        "precio":22.99
+        "descriccion": "YIMAGUJRX Cable en espiral para teclado, cable tipo C a USB A en espiral personalizado, cable de doble manga con conector aviador de metal de 2 generaciones para teclado mecánico de juegos",
+        "detalle" : "Conector de aviador: el conector de aviación de metal personalizado de segunda generación utiliza un innovador material de aleación de aluminio para mejorar la sensación metálica y la resistencia a la corrosión. La junta de aviación cuenta con una estructura de autobloqueo plug-and-pull, lo que garantiza una conexión firme que reduce la pérdida de señal y promueve la transmisión sin pérdidas. Cable enrollado de TPU mejorado: un cable en espiral de TPU mejorado reemplaza el material de poliuretano tradicional, con un diseño trenzado de doble capa que reduce el desgaste. El cable cuenta con una fibra interior mejorada y un núcleo de cobre más grueso, utilizando cuatro núcleos de línea de alta pureza para mejorar la velocidad de salida, flexibilidad y durabilidad con una rápida disipación del calor. Conector USB chapado en oro: el conector de aleación de aluminio chapado en oro no solo es duradero, sino que también está diseñado con un material de polietileno de alta densidad que mejora la durabilidad del punto de soldadura, aumentando el uso normal tres veces mientras mejora la velocidad de transferencia de datos.",
+        "precio": 22.99
     },
     {
+        "titulo" : "Rapoo Ratón inalámbrico multidispositivo MT760",
         "categoria": "Mouse",
         "img": "https://m.media-amazon.com/images/I/51f4KLuHTML._AC_SL1500_.jpg",
-        "titulo":"Rapoo Ratón inalámbrico multidispositivo MT760, Bluetooth 5.0/3.0 y conexión trimodo de 2.4 GHz, hasta 4 dispositivos, 11 botones programables, 4K DPI, diseño ergonómico, duración de la batería de 90",
-        "precio":49.99
+        "descriccion": "Rapoo Ratón inalámbrico multidispositivo MT760, Bluetooth 5.0/3.0 y conexión trimodo de 2.4 GHz, hasta 4 dispositivos, 11 botones programables, 4K DPI, diseño ergonómico, duración de la batería de 90",
+        "detalle" : "⭐【Mouse Bluetooth inalámbrico multidispositivo】Rapoo MT760 soporta conexión Bluetooth 5.0/3.0 y 2.4GHz trimodo, que se puede utilizar para cambiar de ida y vuelta entre la computadora de oficina, portátil, teléfono celular, iPad a través de Bluetooth o el dongle USB incluido, y el mouse inalámbrico Bluetooth de baja potencia, baja latencia y alta eficiencia te permite enfrentarte todo tipo de complicado importa con facilidad. ⭐【7 DPI ajustables y M+ tecnología de computadora cruzada】Rapoo mouse inalámbrico preestablecido 800/1000/1200/1600/2400/3200/4000 valor de siete DPI, a través del botón DPI una tecla para ajustar para satisfacer diferentes necesidades de uso personal. Utilice y controle sin problemas varias computadoras moviendo el cursor al borde de la pantalla, cambie automáticamente entre pantallas para finalizar múltiples tareas al mismo tiempo. [Necesita instalar el controlador del mouse y conectar sus computadoras al mismo Wi-Fi o Ethernet].",
+        "precio": 49.99
     },
     {
+        "titulo" : "Sceptre Curved 24.5-inch Gaming Monitor",
         "categoria": "Pantallas",
         "img": "https://m.media-amazon.com/images/I/71P1MZ8ztDL._AC_SL1500_.jpg",
-        "titulo":"Sceptre Curved 24.5-inch Gaming Monitor • up to 240Hz • 1080p • R1500 • 1ms • DisplayPort x2 • HDMI x2 • Blue Light Shift • Build-in Speakers • Machine Black • 2023 (C255B-FWT240)",
+        "descriccion":"Sceptre Curved 24.5-inch Gaming Monitor • up to 240Hz • 1080p • R1500 • 1ms • DisplayPort x2 • HDMI x2 • Blue Light Shift • Build-in Speakers • Machine Black • 2023 (C255B-FWT240)",
         "precio":149.97
     },
     {
+        "titulo" : "iBUYPOWER Computadora de escritorio Pro Y60",
         "categoria": "Procesadores",
         "img": "https://m.media-amazon.com/images/I/71FpoBA7ZcL._AC_SL1200_.jpg",
-        "titulo":"iBUYPOWER Computadora de escritorio Pro Y60 para juegos Y60BI9N4701 (Intel i9-13900KF 3.0 GHz, Nvidia GeForce RTX 4070 12GB, 32 GB 5200 MHz DDR5 RAM, 1TB NVMe SSD, WiFi listo, Windows 11 Home), negro",
-        "precio":1799.99
+        "descriccion": "iBUYPOWER Computadora de escritorio Pro Y60 para juegos Y60BI9N4701 (Intel i9-13900KF 3.0 GHz, Nvidia GeForce RTX 4070 12GB, 32 GB 5200 MHz DDR5 RAM, 1TB NVMe SSD, WiFi listo, Windows 11 Home), negro",
+        "detalle" : "Intel i9-13900KF 3.0 GHz, Nvidia GeForce RTX 4070 12GB, 32 GB 5200 MHz DDR5 RAM, 1TB NVMe SSD, WiFi listo, Windows 11 Home. Conectividad: 6 x USB 3.1 | 1x RJ-45 Ethernet de red 10/100/1000 | Audio: Audio integrado. Complementos especiales: Estuche para juegos RGB de vidrio templado | Wi-Fi 802.11AC incluido | Estuche de iluminación RGB de 16 colores | Teclado para juegos iBUYPOWER gratis y mouse RGB para juegos | Sin Bloatware. Garantía: 1 año de piezas y mano de obra más soporte técnico gratuito de por vida de EE. UU",
+        "precio": 1799.99
     },
     {
+        "titulo" : "GOWENIC Mini teclado mecánico de 6 teclas",
         "categoria": "Teclados",
         "img": "https://m.media-amazon.com/images/I/61vPb4buZkL._AC_SL1500_.jpg",
-        "titulo":"GOWENIC Mini teclado mecánico de 6 teclas, teclado mecánico para juegos con cable USB inalámbrico Bluetooth modo dual, teclado OSU HID teclado programable, para juegos de oficina, regalo de música",
-        "precio":34.08
+        "descriccion": "GOWENIC Mini teclado mecánico de 6 teclas, teclado mecánico para juegos con cable USB inalámbrico Bluetooth modo dual, teclado OSU HID teclado programable, para juegos de oficina, regalo de música",
+        "detalle" : "Tamaño mini: la operación mecánica del teclado con una sola mano es simple, conveniente y fácil de comenzar, mini tamaño y portátil, ahorra espacio de escritorio con eficacia. Amplia gama de aplicaciones: Mini teclado es adecuado para oficina, juegos, música, medios de comunicación, control industrial, laboratorio, pruebas de línea de producción y otros campos, adecuado para diseñadores y editores de video, etc. Programable: Todas las teclas del teclado son programables. Se pueden configurar todas las funciones clave del estándar para el teclado de Windows, y se pueden realizar combinaciones complejas de teclas de acceso directo con una pulsación de tecla. Función de perilla: no solo se puede girar y ajustar al mismo tiempo, también se puede utilizar como un botón, la perilla se puede configurar para acercar y alejar, subir y cortar la canción, el siguiente volumen más, volumen menos, pausa, reproducir y otras funciones. Conexión de modo dual: el teclado mecánico admite conexión de modo dual USB con cable e inalámbrica Bluetooth, libre de elegir, cable USB desmontable, más cómodo de usar.",
+        "precio": 34.08
     },
     {
+        "titulo" : "AJAZZ KA820 Teclado mecánico con cable RGB 75% con cable con perilla de volumen",
         "categoria": "Teclados",
         "img": "https://m.media-amazon.com/images/I/61Ee6s4OmLL._AC_SL1500_.jpg",
-        "titulo":"AJAZZ KA820 Teclado mecánico con cable RGB 75% con cable con perilla de volumen - Junta de espuma Poron montada - LED orientado al sur - Tecla PBT de perfil OME - Interruptor lineal personalizado",
+        "descriccion":"AJAZZ KA820 Teclado mecánico con cable RGB 75% con cable con perilla de volumen - Junta de espuma Poron montada - LED orientado al sur - Tecla PBT de perfil OME - Interruptor lineal personalizado",
         "precio":48.99
     },
     {
+        "titulo" : "DeepCool LS720 SE Enfriador líquido",
         "categoria": "Refrigeracion",
         "img": "https://m.media-amazon.com/images/I/61fsXU-rHeL._AC_SL1500_.jpg",
-        "titulo":"DeepCool LS720 SE Enfriador líquido 14.173 in 4ª generación bomba de doble cámara 3100RPM 300w TDP AIO Cooler Anti-Leak Tech 5v-3pin ARGB Ventiladores CPU enfriador de agua Infinity Mirror Block para",
-        "precio":87.99
+        "descriccion": "DeepCool LS720 SE Enfriador líquido 14.173 in 4ª generación bomba de doble cámara 3100RPM 300w TDP AIO Cooler Anti-Leak Tech 5v-3pin ARGB Ventiladores CPU enfriador de agua Infinity Mirror Block para",
+        "detalle" : "El diseño de microcanales de la bomba de cuarta generación optimiza el flujo de refrigerante, mientras que el motor trifásico sin escobillas tiene una capacidad nominal de hasta 3100 RPM. Una placa gruesa de cobre puro maximiza la eficiencia general de enfriamiento. Una cubierta superior chapada en espejo con un marco estrecho captura un reflejo infinito de 16 LED RGB para un efecto visual vibrante. La carcasa de aluminio suave añade un toque final premium y un brillo lustroso. Mantente fresco con ventiladores ARGB PWM de 4.724 in que superan el calor con la máxima presión estática y un potente flujo de aire. Un adaptador de baja velocidad incluido reduce el ruido máximo hasta 10dB para un silencio máximo. Con la tecnología antifugas patentada de DeepCool. La válvula interna regula la presión y la purgará cuando la presión interna exceda la presión atmosférica, lo que lleva a una vida útil más larga. Se incluyen soportes de montaje resistentes para enchufes Intel y AMD que son fáciles de instalar",
+        "precio": 87.99
     },
     {
+        "titulo" : "MSI Tarjeta gráfica GeForce RTX 3060 12GB",
         "categoria": "Graficas",
         "img": "https://m.media-amazon.com/images/I/71tduSp8ooL._AC_SL1500_.jpg",
-        "titulo":"MSI Tarjeta gráfica GeForce RTX 3060 12GB 15 Gbps GDRR6 192-Bit HDMI/DP PCIe 4 Torx Twin Fan Ampere OC",
-        "precio":289.39
+        "descriccion": "MSI Tarjeta gráfica GeForce RTX 3060 12GB 15 Gbps GDRR6 192-Bit HDMI/DP PCIe 4 Torx Twin Fan Ampere OC",
+        "detalle" : "Tarjeta gráfica dedicada NVIDIA GeForce RTX 3060 12GB GDDR6. Velocidad de reloj GPU de 1710 MHz y velocidad de reloj de memoria de 1807 MHz. Interfaces de salida DisplayPort x 3 (v1.4a) y HDMI 2.1 x 1. Resolución máxima de pantalla de 7680 x 4320",
+        "precio": 289.39
     },
     {
+        "titulo" : "AMD Procesador de escritorio Ryzen™ 7 5800X3D",
         "categoria": "Procesadores",
         "img": "https://m.media-amazon.com/images/I/51rz9osumDL._AC_SL1000_.jpg",
-        "titulo":"AMD Procesador de escritorio Ryzen™ 7 5800X3D de 8 núcleos y 16 hilos con tecnología AMD 3D V-Cache™",
-        "precio":288.09
+        "descriccion": "AMD Procesador de escritorio Ryzen™ 7 5800X3D de 8 núcleos y 16 hilos con tecnología AMD 3D V-Cache™",
+        "detalle" : "El procesador de escritorio para juegos más rápido del mundo y el primer procesador de juegos con tecnología de apilamiento 3D. 8 núcleos y 16 hilos de procesamiento con tecnología AMD 3D V-Cache. Aumento máximo de 4,5 GHz, caché de 100 MB, soporte DDR4-3200. Para la plataforma avanzada Socket AM4, puede admitir PCIe 4.0 en placas base X570 y B550. Refrigerador no incluido, enfriador de alto rendimiento recomendado",
+        "precio": 288.09
     },
     {
+        "titulo" : "Noctua NH-L9x65 SE-AM4",
         "categoria": "Refrigeracion",
         "img": "https://m.media-amazon.com/images/I/81OzpWhMNkL._AC_SL1500_.jpg",
-        "titulo":"Noctua NH-L9x65 SE-AM4 • Premium Low-Profile CPU Cooler • with 92mm Fan • for AMD AM4 • Brown",
+        "descriccion":"Noctua NH-L9x65 SE-AM4 • Premium Low-Profile CPU Cooler • with 92mm Fan • for AMD AM4 • Brown",
         "precio":59.95
     }
 ]

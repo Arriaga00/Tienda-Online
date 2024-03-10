@@ -8,6 +8,7 @@ import Modals from "./components/Modals";
 import NoFound from './components/NoFound';
 import Registro from './pages/Registro';
 import Categorias from './pages/Categorias';
+import DetalleCard from './components/DetalleCard';
 
 function App() {
   const [abrirModal, setAbrirModal] = useState(false);
@@ -26,7 +27,9 @@ function App() {
           <Route path='/categorias' element={<Categorias/>} />
           <Route path='/registro' element={<Registro/>} />
           <Route path='/tu-carrito' element={<TuCarrito logueado={false}/>} />
+          <Route path='/:name' element={<DetalleCard/>}/> 
           <Route path='*' element={<NoFound/>}/>
+
         </Routes>
       </Router>
     </>
