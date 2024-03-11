@@ -1,9 +1,12 @@
+/* eslint-disable react/prop-types */
+import { Link } from "react-router-dom";
+
 const Cards = ({name,img}) => {
   return (
     <>
-      <a className="group hover:scale-105 ease-in-out duration-300" href="#" >
+      <Link to={`/categorias/${name}`} className="group hover:scale-105 ease-in-out duration-300" >
         <img
-          alt="Lava"
+          alt="categorias"
           src={img}
           className="h-56 w-[18rem] rounded-xl object-contain shadow-xl transition group-hover:grayscale-[50%]  object-center  "
         />
@@ -13,7 +16,7 @@ const Cards = ({name,img}) => {
               {name}
             </h3>
         </div>
-      </a>
+      </Link>
     </>
   );
 };
